@@ -12,7 +12,7 @@ We build deterministic verification and memory tools for AI coding assistants, 6
 ## Active Systems (Public Sandbox & Early Access — Pre-Revenue)
 
 ### 1. [Resonant MCP](https://resonantexo.com) & Resonant Cloud (`v2.5`)
-AI coding assistants frequently edit files using outdated context, break callers across modules, or introduce security/runtime regressions. **Resonant MCP** exposes a zero-dependency Python verification and memory engine (`tb_cs_engine.py`, 31/31 engine tests & 103/103 cloud backend tests passing) over the Model Context Protocol (`2025-03-26` spec, 7 annotated tools, 3 prompts, 3 resources, `0.06 ms` warm / `1.74 ms` cold latency, 0 LLM tokens per verification call):
+AI coding assistants frequently edit files using outdated context, break callers across modules, or introduce security/runtime regressions. **Resonant MCP** exposes a zero-dependency Python verification and memory engine (`tb_cs_engine.py`, 31/31 engine tests & 103/103 cloud backend tests passing) over the Model Context Protocol (`2025-03-26` spec, 7 annotated tools, 3 prompts, 3 resources, `<2 ms` per verification call, 0 LLM tokens per verification call):
 
 - **Pre-Save Contract & Bytecode Verification (`resonant_verify_cegar`):** Diffs old vs. new function contracts, runs restricted Python bytecode across boundary inputs, checks 10 CWE classes and 60fps render-loop rules, and emits JSON or OASIS SARIF v2.1.0 reports before save.
 - **Surgical Call-Graph & Git Co-Change Slicing (`resonant_architect_orient`):** Extracts target function contracts, shared-state callers, and historical Git co-change partners (~87% context token reduction).
