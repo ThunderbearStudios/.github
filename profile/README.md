@@ -2,7 +2,7 @@
 
 We build deterministic verification and memory tools for AI coding assistants, 64-bit multi-track audio DSP software, and real-time 60fps WebGL2/C/C++ applications.
 
-- **Studio & Technical Overview:** [thunderbearstudios.org](https://thunderbearstudios.org) ([Technical Overview](https://thunderbearstudios.org/diligence/) · [Published Literature & Standards Mapping](https://thunderbearstudios.org/research/))
+- **Studio & Technical Overview:** [thunderbearstudios.dev](https://thunderbearstudios.dev) ([Technical Overview](https://thunderbearstudios.dev/diligence/) · [Published Literature & Standards Mapping](https://thunderbearstudios.dev/research/))
 - **Resonant MCP (v2.5):** [resonantexo.com](https://resonantexo.com) (`https://resonantexo.com/api/mcp`) — Sub-2ms pre-save code verification, OASIS SARIF v2.1.0 CI/CD gate & AST-linked memory (`2025-03-26` MCP spec)
 - **Angband 3D (v11.1.1):** [angband3d.com](https://angband3d.com) — Live 60fps Three.js/WebGL2, Desktop C# & Android proving ground ([ThunderbearStudios/angband3d](https://github.com/ThunderbearStudios/angband3d))
 - **Contact:** `founder@thunderbearstudios.org` / `dev@thunderbearstudios.org`
